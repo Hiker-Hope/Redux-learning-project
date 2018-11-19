@@ -1,16 +1,16 @@
-export const ADD = () => {
+export const add = () => {
     return {
         type: "ADD_COUNT"
     }
 }
 
-export const SUBTRACT = () => {
+export const subtract = () => {
     return {
         type: "SUBTRACT_COUNT"
     }
 }
 
-export const RESET = () => {
+export const reset = () => {
     return {
         type: "RESET_COUNT"
     }
